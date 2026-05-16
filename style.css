@@ -1,0 +1,20 @@
+body{
+    background-image: url(AAAAAA_202605161523_40110.jpeg);
+}
+
+
+img.rounded-5 {
+    width: 80px !important; /* Adjust this number to the size you want */
+    height: auto !important;
+    display: block;
+    margin: 0 auto; /* Centers it since the parent is a link */
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) 
+}
