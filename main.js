@@ -5,14 +5,14 @@ function logIn(event) {
     let password = document.getElementById("password").value;
     let stayLoggedIn = document.getElementById("stayLoggedIn");
 
-    if (username === "Student2526" || password === "Ms.Pascobest") {
+    if (username === "" || password === "") {
         alert("Please fill in all fields.");
         return;
     }
 
     switch (username) {
-        case "student":
-            if (password === "student67") {
+        case "Student2526":
+            if (password === "Ms.Pascobest") {
                 alert("Login successful!");
 
                 if (stayLoggedIn.checked) {
