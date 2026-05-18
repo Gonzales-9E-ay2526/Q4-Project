@@ -5,7 +5,7 @@ function logIn(event) {
     let password = document.getElementById("password").value;
     let stayLoggedIn = document.getElementById("stayLoggedIn");
 
-    if (username === "" || password === "") {
+    if (username === "Student2526" || password === "Ms.Pascobest") {
         alert("Please fill in all fields.");
         return;
     }
